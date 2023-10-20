@@ -19,6 +19,15 @@
   body {
     font-family: "Work Sans", sans-serif;
   }
+  .bar{
+    position: fixed;
+    top:2px;
+    left: 0;
+    height: 2px;
+    width:0;
+    background-color: var(--main-color);
+    z-index:9999;
+  }
   .container {
     padding-left: 15px;
     padding-right: 15px;
